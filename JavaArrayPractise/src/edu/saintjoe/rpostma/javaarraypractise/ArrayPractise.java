@@ -25,6 +25,11 @@ public class ArrayPractise {
 				System.out.println("Found elmo at position " + names.indexOf("Elmo"));
 			}
 		}
+		
+		System.out.println("Replacing Arnold with Ryan and Luis with Roberto");
+		names.set(0, "Ryan");
+		names.set(1, "Roberto");
+		System.out.println(names);
 
 	}//end main
 
